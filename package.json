@@ -1,0 +1,36 @@
+{
+  "name": "dv_hotel_booking_api",
+  "version": "1.0.0",
+  "description": "Backend APIs for Hotel Booking - for both User & Hotel Staff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET NODE_ENV=development&&nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dhavalveera@github.com/dhavalveera/dv_hotel_booking_api.git"
+  },
+  "author": "Dhaval Vira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhavalveera/dv_hotel_booking_api/issues"
+  },
+  "homepage": "https://github.com/dhavalveera/dv_hotel_booking_api#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "joi": "^17.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.7.8",
+    "pg": "^8.8.0",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
